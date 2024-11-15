@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的清新博客</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'PingFang SC', sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+
+        .header {
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            padding: 1rem 2rem;
+        }
+
+        .nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        .menu a {
+            margin-left: 2rem;
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .menu a:hover {
+            color: #42b983;
+        }
+
+        .main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .article-card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+            transition: transform 0.3s;
+        }
+
+        .article-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .article-title {
+            font-size: 1.4rem;
+            margin: 0 0 1rem;
+            color: #2c3e50;
+        }
+
+        .article-meta {
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        .article-excerpt {
+            color: #666;
+            line-height: 1.6;
+            margin: 1rem 0;
+        }
+
+        .read-more {
+            color: #42b983;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="/" class="logo">清新博客</a>
+            <div class="menu">
+                <a href="/">首页</a>
+                <a href="/archive">归档</a>
+                <a href="/about">关于</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="article-card">
+            <h2 class="article-title">这是一篇博客文章的标题</h2>
+            <div class="article-meta">
+                发布于 2024-03-21 · 阅读时间 5 分钟
+            </div>
+            <p class="article-excerpt">
+                这里是文章的摘要内容。一个好的摘要应该能够吸引读者的注意力，并且简明扼要地表达文章的主要内容...
+            </p>
+            <a href="#" class="read-more">继续阅读 →</a>
+        </article>
+
+        <article class="article-card">
+            <h2 class="article-title">另一篇精彩的博客文章</h2>
+            <div class="article-meta">
+                发布于 2024-03-20 · 阅读时间 3 分钟
+            </div>
+            <p class="article-excerpt">
+                这是另一篇文章的摘要。保持简洁清晰的排版风格，让读者能够轻松获取信息...
+            </p>
+            <a href="#" class="read-more">继续阅读 →</a>
+        </article>
+    </main>
+</body>
+</html> 
